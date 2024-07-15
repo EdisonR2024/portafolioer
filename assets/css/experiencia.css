@@ -1,0 +1,20 @@
+ #experiencia img{
+    background: var(--white1);
+    width: 200px;
+    height: 150px;
+    padding: 2rem;
+    border: 5px solid var(--blue-ligth);
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+
+ #experiencia img:hover{
+    border-radius: 0;
+    box-shadow: 0px 0px 10px 1px var(--gray3);
+ }
+
+ #experiencia h4{
+   font-size: 1rem;
+   margin-bottom: 3rem;
+ }

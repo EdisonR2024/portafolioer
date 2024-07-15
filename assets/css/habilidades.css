@@ -1,0 +1,58 @@
+#habilidades>div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-gap: 1rem; */
+    gap: 1.5rem ;
+    margin: 1rem;
+}
+
+#habilidades img{
+    border-radius: 1rem;
+    max-width: 7rem;
+    /* cursor: context-menu; */
+    cursor: pointer;
+}
+
+#habilidades>div>div{
+    position: relative;
+    /* border: 1px solid; */
+}
+
+#habilidades span{
+    width: 120px;
+    background-color: rgba(0, 0, 0, .75);
+    text-align: center;
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    left: 50%;
+    transform: translate(-60px, 10px);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+}
+
+#habilidades >div>div:hover span{
+    opacity: 1;
+    transform: translate(-60px, 0px);
+}
+
+#habilidades span::after{
+    content: "";
+    position: absolute;
+    border: 5px solid  ;
+    margin-left: -5px;
+    top: 100%;
+    left: 50%;
+    border-color: rgba(0, 0, 0, .75) transparent transparent transparent;
+    
+    /* El siguiente código solo es para entender como solo con los bordes se crea la flecha */
+    /* border-color: rgba(0, 0, 0, 0.5) red yellow blue; 
+    background-color: green;
+    width: 5px;
+    height: 5px; */
+}
+
+

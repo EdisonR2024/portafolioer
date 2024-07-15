@@ -1,0 +1,21 @@
+:root{
+    /*
+    --blue-ligth: hsl(190, 68%, 35%);
+    --blue-dark: hsl(190, 68%, 60%);
+    */
+
+    --blue-ligth: #6c589b;
+    --blue-dark: hsla(268, 68%, 60%, 0.986);
+    
+
+    /* --blue-dark: rgb(4, 2, 90); */
+    --secondary: hsl(25, 99%, 63%);
+	--secondary-dark:hsl(25, 99%, 55%);
+    --gray: #e1e4e5;
+	--gray2: #c0c6c9;
+	--gray3: #38393a;
+    --white1: #f5f9fa;
+	--white2: #ebf3f5;
+    --black1: #323333;
+	--black2: #2a2b2b;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edison Rivadeneira | Portafolio </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/font.css">
+    <link rel="stylesheet" href="assets/css/utils.css">
+    <link rel="stylesheet" href="assets/css/sections.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/portafolio.css">
+    <link rel="stylesheet" href="assets/css/habilidades.css">
+    <link rel="stylesheet" href="assets/css/experiencia.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img class="circulo" src="assets/img/logos/logo_principal3.png"></a>
+        <h1>Edison Rivadeneira</h1>
+        <hr>
+        <h2>Ingeniero en Sistemas</h2>
+        <video autoplay loop muted width="500px">
+            <source src="assets/video/hero.mp4">
+        </video>
+    </header>
+    <nav id="navbar" class="open navbar-fixed">
+        <div>
+            <a href="/">
+                <img class="circulo" src="assets/img/logos/small_logo_principal3.png">
+                <span>Edison Rivadeneira <small>Ingeniero en Sistemas</small></span>
+            </a>
+            <button>☰</button>
+        </div>
+        <ul>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="portafolio">
+            <h3>Portafolio</h3>
+            <hr>
+            <div id="proyectos">
+                <button>
+                    <img src="assets/img/portfolio/proyecto1.webp" width="400">
+                    <h4>Proyecto 1</h4>
+                </button>
+                <!-- <br>
+            <br> -->
+                <button>
+                    <img src="assets/img/portfolio/proyecto2.jpg" width="400">
+                    <h4>Proyecto 2</h4>
+                </button>
+                <!-- <br><br> -->
+                <button>
+                    <img src="assets/img/portfolio/proyecto3.avif" width="400">
+                    <h4>Proyecto 3</h4>
+                </button>
+            </div>
+        </section>
+
+        <section id="habilidades" class="even">
+            <h3>Habilidades</h3>
+            <hr>
+            <div>
+                <div>
+                    <img src="assets/img/skillset/html.svg" width="200" id="img_html">
+                    <span class="tooltip">HTML</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/css3.png" width="200">
+                    <span class="tooltip">CSS</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/javascript.svg" width="200">
+                    <span class="tooltip">JavaScript</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/C_sharp.png" width="200">
+                    <span class="tooltip">C#</span>
+                </div>
+
+                <!--  -->
+            
+                <div>
+                    <img src="assets/img/skillset/php.png" width="200" id="img_html">
+                    <span class="tooltip">PHP</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/sql-server.png" width="200">
+                    <span class="tooltip">SQL Server</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/react.png" width="200">
+                    <span class="tooltip">React</span>
+                </div>
+                <div>
+                    <img src="assets/img/skillset/phyton.png" width="200">
+                    <span class="tooltip">Phyton</span>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="experiencia">
+            <h3>Experiencia</h3>
+            <hr>
+            <div>
+                <a>
+                    <img src="assets/img/experience/experiencia1.webp" width="300">
+                    <h4>Experiencia 1</h4>
+                </a>
+                <a>
+                    <img src="assets/img/experience/experiencia2.png" width="300">
+                    <h4>Experiencia 2</h4>
+                </a>
+
+                <a>
+                    <img src="assets/img/experience/experiencia3.png" width="300">
+                    <h4>Experiencia 3</h4>
+                </a>
+
+            </div>
+        </section>
+
+        <section id="contacto" class="even">
+            <h3>Contacto</h3>
+            <hr>
+            <form action="https://formspree.io/f/mkndprqy" method="POST">
+                <label>
+                    Email:
+                    <input type="email" name="email" required placeholder="micorre@dominio.com">
+                </label>
+                <br><br>
+                <label>
+                    Mensaje:
+                    <textarea name="message" required placeholder="Escriba su mensaje"></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <br><br>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+
+            <nav id="redes-sociales">
+                <a href="https://www.linkedin.com/in/edison-rivadeneira-74849261/" target="_blank">
+                    <img id="linkedin" src="assets/img/social/linkedin.png">
+                </a>
+                <a href="https://www.youtube.com/channel/UCdBgTb4JtFGK_shVpVQe4IA" target="_blank">
+                    <img id="youtube" src="assets/img/social/youtube.png">
+                </a>
+                <a href="https://github.com/EdisonR2024" target="_blank">
+                    <img id="github" src="assets/img/social/github.png">
+                </a>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <small>Desarrollado y diseñado por Edison Rivadeneira. 2024.</small>
+    </footer>
+
+</body>
+
+</html>
