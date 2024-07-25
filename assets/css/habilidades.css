@@ -1,9 +1,19 @@
-#habilidades>div{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    /* grid-gap: 1rem; */
-    gap: 1.5rem ;
-    margin: 1rem;
+#habilidades>div {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Para pantallas mas grandes */
+@media (min-width: 768px) {
+
+    #habilidades>div {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.5rem;
+        justify-content: space-around;
+    }
 }
 
 #habilidades img{
