@@ -4,7 +4,8 @@
     --blue-dark: hsl(190, 68%, 60%);
     */
 
-    --blue-ligth: #6c589b;
+    /* --blue-ligth: #6c589b; */
+    --blue-ligth: hsl(222, 20%, 42%);
     --blue-dark: hsla(268, 68%, 60%, 0.986);
     
 
