@@ -15,3 +15,8 @@ menu_nav.addEventListener('click', event=>{
 function addRemoveMenu() {
     menu_nav.classList.toggle('open');
 }
+
+//Código para ocultar el menu cuando se haga un scroll de la página
+document.addEventListener('scroll', () => {
+    menu_nav.classList.remove('open');
+});
