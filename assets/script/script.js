@@ -1,4 +1,3 @@
-console.log('Validando Llamada Script');
 let menu_nav = document.querySelector("#navbar");
 let boton_menu = menu_nav.querySelector("button");
 
